@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  color: #212127;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.banner {
+  // position: absolute;
+  top: 0px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  // background-color: aqua;
+  max-width: 1200px;
+}
+
+.leftSection {
+  margin-top: 170px;
+  width: 45%;
+}
+
+.rightSection {
+  width: 55%;
+}
+
+.shape1 {
+  position: relative;
+  right: 0px;
+  top: -3px;
+  width: 1000px;
+  z-index: -2;
+}
+
+.shape2 {
+  position: relative;
+  left: 600px;
+  bottom: 280px;
+  width: 220px;
+  filter: blur(5px);
+  z-index: 1;
+}
+
+.shape3 {
+  width: 60px;
+  position: absolute;
+  left: 5px;
+  top: 300px;
+  bottom: 100px;
+}
+
+.shape4 {
+  width: 1000px;
+  position: absolute;
+  left: -420px;
+  bottom: 30px;
+  z-index: -2;
+}
+
+.shape5 {
+  z-index: -5;
+  width: 100px;
+  position: absolute;
+  right: 302px;
+  bottom: -32px;
+}
+
+.leftSection h1 {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #2adc65;
+  font-size: 50px;
+  line-height: 60px;
+  text-decoration: underline;
+}
+
+.leftSection h1 span {
+  color: #212127;
+  line-height: 30px;
+}
+
+.btn {
+  margin-top: 25px;
+  padding: 15px 33px;
+  border-radius: 10px;
+  transition: all 300ms ease;
+  color: #fff;
+  background-color: #58e787;
+}
+
+.btn:hover {
+  background-color: #2adc65;
+  color: #fff;
+}
+
+.titleWrapper {
+  display: block;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  // position: relative;
+  text-align: center;
+}
+
+.alignCenter {
+  width: 80px;
+  height: 80px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+}
+
+.titleWrapper span {
+  margin-bottom: 10px;
+  color: #aaa;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.ceoImage {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 400px 200px 200px 150px;
+  background-color: #000;
+  background-image: url("https://assets.website-files.com/5aafd5b167150a6f051ab605/5ab00c3d67150a35281b1f52_team-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 14px 14px 50px -20px rgb(0 0 0 / 50%);
+}
+
+.ceoName {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #2adc65 !important;
+}
+
+@font-face {
+  font-family: "Walrus typeface";
+  src: url("https://assets.website-files.com/5aafd5b167150a6f051ab605/5ab00dcd5e683a1ee41e877f_Walrus%20Typeface.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section {
+  position: relative;
+  z-index: 1;
+  padding: 120px 30px;
+  background-color: #f8fbfd;
+}
+
+.signFont {
+  font-family: "Walrus typeface", sans-serif;
+  color: #121217;
+  font-size: 90px;
+  line-height: 80px;
+}
